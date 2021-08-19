@@ -11,7 +11,7 @@ public class HelloController {
 
     @GetMapping("hello")
     public String hello(Model model){
-        System.out.println("Jenkins 배포 테스트 .. ");
+        System.out.println("Jenkins 배포 테스트 ..2 ");
         model.addAttribute("data", "hello!!");
 
         return "hello";
